@@ -72,19 +72,11 @@ def get_all_shorts(base_url):
 
 
 
-def souphtmltags(soup,toprint=False):
+def souphtmltags(soup):
     '''    
     
     returns a dictionary which has every indpendent html tag with a set of every possible css tag with respect to the soup you are looking at
     if you wish you coould easily extend this to pull every unique webset listed within a soup
-
-    
-    
-    
-    
-    
-    
-    
     
     
     '''
